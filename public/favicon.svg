@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D3557"/>
+      <stop offset="100%" stop-color="#0F1F38"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#F4B400"/>
+    </linearGradient>
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF85A1"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Glow Ring -->
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="8"/>
+
+  <!-- Cute Hawk Bird Graphic -->
+  <!-- Left Wing -->
+  <path d="M 120 280 C 80 230, 90 150, 190 210 C 150 250, 130 270, 120 280 Z" fill="url(#wingGrad)"/>
+
+  <!-- Right Wing -->
+  <path d="M 392 280 C 432 230, 422 150, 322 210 C 362 250, 382 270, 392 280 Z" fill="url(#wingGrad)"/>
+
+  <!-- Body -->
+  <ellipse cx="256" cy="300" rx="110" ry="120" fill="url(#goldGrad)"/>
+
+  <!-- Head -->
+  <circle cx="256" cy="200" r="85" fill="url(#goldGrad)"/>
+
+  <!-- Tummy Patch -->
+  <ellipse cx="256" cy="315" rx="70" ry="85" fill="#FFF8E1"/>
+
+  <!-- Big Friendly Eyes -->
+  <!-- Left Eye -->
+  <circle cx="220" cy="185" r="22" fill="#FFFFFF"/>
+  <circle cx="225" cy="185" r="13" fill="#1D3557"/>
+  <circle cx="229" cy="180" r="5" fill="#FFFFFF"/>
+
+  <!-- Right Eye -->
+  <circle cx="292" cy="185" r="22" fill="#FFFFFF"/>
+  <circle cx="287" cy="185" r="13" fill="#1D3557"/>
+  <circle cx="283" cy="180" r="5" fill="#FFFFFF"/>
+
+  <!-- Cute Hawk Beak -->
+  <path d="M 240 205 Q 256 245 272 205 Q 256 215 240 205 Z" fill="#E67E22"/>
+
+  <!-- Feather Crest Header -->
+  <path d="M 256 115 C 240 85, 230 75, 220 80 C 240 100, 250 110, 256 115 Z" fill="#F4B400"/>
+  <path d="M 256 115 C 272 85, 282 75, 292 80 C 272 100, 262 110, 256 115 Z" fill="#F4B400"/>
+
+  <!-- Cheeks -->
+  <circle cx="190" cy="210" r="12" fill="#FF85A1" opacity="0.6"/>
+  <circle cx="322" cy="210" r="12" fill="#FF85A1" opacity="0.6"/>
+</svg>
