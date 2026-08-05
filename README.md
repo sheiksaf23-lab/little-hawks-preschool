@@ -1,5 +1,5 @@
 
-  # Follow Prompt Instructions
+  # Little Hawks
 
   This is a code bundle for Follow Prompt Instructions. The original project is available at https://www.figma.com/design/7kcSN55eP6yE41WOSS8xDO/Follow-Prompt-Instructions.
 
